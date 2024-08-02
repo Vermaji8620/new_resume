@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+// import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -14,12 +14,24 @@ const App = () => {
       </div>
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
+        <div id="home">
+          <Hero />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="technologies">
+          <Technologies />
+        </div>
+        {/* <div id="experience">
+          <Experience />
+        </div> */}
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );
