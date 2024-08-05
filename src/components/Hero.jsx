@@ -53,6 +53,8 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={ProfilePic}
+              width={300}
+              height={300}
               alt="Aditya Raj"
             />
           </div>

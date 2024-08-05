@@ -3,6 +3,8 @@ import secondcertificate from "../assets/hong kong.png";
 import thirdcertificate from "../assets/michigan.png";
 import fourthcertificate from "../assets/sih.png";
 import fifthcertificate from "../assets/flipkart grid 5.0.png";
+import sixthcertificate from "../assets/udemy_vue.png";
+
 import { motion } from "framer-motion";
 
 const Certificates = () => {
@@ -12,6 +14,7 @@ const Certificates = () => {
     thirdcertificate,
     fourthcertificate,
     fifthcertificate,
+    sixthcertificate,
   };
   return (
     <div className="border-b border-neutral-900 pb-4">
