@@ -65,11 +65,10 @@ export const PROJECTS = [
     link: "https://chatapp-mqsl.onrender.com/",
     githubLink: "https://github.com/Vermaji8620/ChatApp",
   },
-
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "KOLKATA, WEST BENGAL, INDIA",
+  phoneNo: "+91 86200 32336",
+  email: "vadityaraj67@gmail.com",
 };
