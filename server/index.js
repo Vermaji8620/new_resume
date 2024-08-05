@@ -1,10 +1,12 @@
 import express from "express";
 const app = express();
+import cors from "cors";
 import dotenv from "dotenv";
 import process from "process";
 const PORT = process.env.PORT || 3000;
 import nodemailer from "nodemailer";
 
+app.use(cors());
 dotenv.config();
 app.use(express.json());
 
@@ -60,7 +62,7 @@ app.post("/mail", async (req, res) => {
       });
     }
   } catch (err) {
-    res.status(401).json({
+    res.status(500).json({
       message: "Mail could not be sent",
       error: err,
     });
