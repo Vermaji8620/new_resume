@@ -46,6 +46,14 @@ const Navbar = () => {
         >
           Technologies
         </ScrollLink>
+        <ScrollLink
+          to="certificates"
+          smooth={true}
+          duration={1000}
+          className="text-lg cursor-pointer hover:text-blue-500"
+        >
+          Certifications
+        </ScrollLink>
         {/* <ScrollLink
           to="experience"
           smooth={true}

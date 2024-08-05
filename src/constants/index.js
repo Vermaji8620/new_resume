@@ -39,6 +39,15 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "State_Land",
+    image: project3,
+    description:
+      "State_Land is a ledger web application designed with modern frontend technologies to provide a responsive and interactive user experience. It efficiently manages application state with Redux Toolkit and ensures a smooth user experience across different devices. The integration with Cloudinary allows users to upload and manage their media files for housing rentals.",
+    technologies: ["HTML", "CSS", "React", "Javascript", "WebSockets", "Node.js", "Socket.io"],
+    link: "https://mern-estate-zx6g.onrender.com/",
+    githubLink: "https://github.com/Vermaji8620/Real_Estate/",
+  },
+  {
     title: "Wash Market",
     image: news,
     description:
@@ -55,15 +64,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Javascript", "WebSockets", "Node.js", "Socket.io"],
     link: "https://chatapp-mqsl.onrender.com/",
     githubLink: "https://github.com/Vermaji8620/ChatApp",
-  },
-  {
-    title: "State_Land",
-    image: project3,
-    description:
-      "State_Land is a ledger web application designed with modern frontend technologies to provide a responsive and interactive user experience. It efficiently manages application state with Redux Toolkit and ensures a smooth user experience across different devices. The integration with Cloudinary allows users to upload and manage their media files for housing rentals.",
-    technologies: ["HTML", "CSS", "React", "Javascript", "WebSockets", "Node.js", "Socket.io"],
-    link: "https://mern-estate-zx6g.onrender.com/",
-    githubLink: "https://github.com/Vermaji8620/Real_Estate/",
   },
 
 ];
