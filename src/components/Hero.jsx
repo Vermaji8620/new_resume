@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants/index.js";
 import ProfilePic from "../assets/kevinRushProfile.jpg";
 import { motion } from "framer-motion";
+import resume from "../assets/Resume_Aditya.pdf";
 
 const Hero = () => {
   const container = (delay) => ({
@@ -43,6 +44,13 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <a
+              href={resume}
+              download="Resume_Aditya.pdf"
+              className=" mb-7 cursor-pointer bg-gray-900 p-3 rounded-lg"
+            >
+              DOWNLOAD CV
+            </a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
