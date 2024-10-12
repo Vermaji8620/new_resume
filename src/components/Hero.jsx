@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "../constants/index.js";
 import ProfilePic from "../assets/kevinRushProfile.jpg";
 import { motion } from "framer-motion";
-import resume from "../assets/resume_aditya.pdf";
+import resume from "../assets/Resume_Aditya.pdf";
 
 const Hero = () => {
   const container = (delay) => ({
