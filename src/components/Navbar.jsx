@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { Link as ScrollLink } from "react-scroll";
 import { BiSolidUpArrow } from "react-icons/bi";
 import { useState } from "react";
@@ -84,6 +85,9 @@ const Navbar = () => {
           show ? "opacity-0 h-0" : "opacity-100 h-auto"
         } flex items-center justify-center gap-4 lg:opacity-100 lg:h-auto lg:inline-flex text-2xl transition-all duration-300 delay-150 ease-in-out`}
       >
+        <a href="https://leetcode.com/u/AdityaRajVermaa/" target="_blank">
+          <SiLeetcode />
+        </a>
         <a
           href="https://www.linkedin.com/in/aditya-raj-verma-516358255/"
           target="_blank"
